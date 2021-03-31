@@ -16,8 +16,6 @@ class Login extends StatelessWidget {
           children: [
             Center(child: Image.asset(
               'assets/frontdesk.png',
-              //height: 200,
-              //width: 200,
             )),
             Center(
               child: Text(
@@ -92,63 +90,6 @@ class Login extends StatelessWidget {
               ),
             )
           ],
-          /*child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Center(child: Image.asset(
-                'assets/frontdesk.png',
-                //height: 200,
-                //width: 200,
-              )),
-              Center(
-                child: Text(
-                  'Make every work hour count.',
-                  style: TextStyle(
-                    color: color_purple,
-                    fontFamily: 'WorkSans',
-                    letterSpacing: 2.0,
-                    fontSize: 20.0,
-                  ),
-                ),
-              ),
-              SizedBox(height: 60.0,),
-              Center(
-                child: TextField(
-                  decoration: InputDecoration(
-                      border: OutlineInputBorder(),
-                      labelText: 'ID Number'
-                  ),
-                ),
-              ),
-              SizedBox(height: 10.0,),
-              Center(
-                child: TextField(
-                  obscureText: true,
-                  decoration: InputDecoration(
-                    border: OutlineInputBorder(),
-                    labelText: 'Password',
-                  ),
-                ),
-              ),
-              SizedBox(height: 40.0,),
-              Center(
-                child: OutlinedButton(
-                  onPressed: (){
-                    Navigator.pushNamed(context, '/');
-                  },
-                  child: Text('Login'),
-                  style: OutlinedButton.styleFrom(
-                      padding: EdgeInsets.fromLTRB(120.0, 10.0, 120.0, 10.0),
-                      backgroundColor: color_purple,
-                      primary: Colors.white,
-                      textStyle: TextStyle(
-                        fontSize: 20.0,
-                      )
-                  ),
-                ),
-              )
-            ],
-          ),*/
         ),
       ),
     );

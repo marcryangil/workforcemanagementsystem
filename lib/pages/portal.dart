@@ -25,7 +25,7 @@ class Portal extends StatelessWidget {
                 'WORKFORCE',
                 style: TextStyle(
                   color: Colors.white,
-                  fontFamily: 'WorkSans',
+                  //fontFamily: 'WorkSans',
                   letterSpacing: 2.0,
                   fontSize: 40.0,
                 ),
@@ -36,7 +36,7 @@ class Portal extends StatelessWidget {
                 'MANAGEMENT',
                 style: TextStyle(
                   color: Colors.white,
-                  fontFamily: 'WorkSans',
+                  //fontFamily: 'WorkSans',
                   letterSpacing: 2.0,
                   fontSize: 40.0,
                 ),
@@ -47,7 +47,7 @@ class Portal extends StatelessWidget {
                 'SYSTEM',
                 style: TextStyle(
                   color: Colors.white,
-                  fontFamily: 'WorkSans',
+                  //fontFamily: 'WorkSans',
                   letterSpacing: 2.0,
                   fontSize: 40.0,
                 ),
@@ -59,7 +59,7 @@ class Portal extends StatelessWidget {
                 'BY CLOVERBYTE',
                 style: TextStyle(
                   color: Colors.white,
-                  fontFamily: 'WorkSans',
+                  //fontFamily: 'WorkSans',
                   letterSpacing: 2.0,
                   fontSize: 13.0,
                 ),
