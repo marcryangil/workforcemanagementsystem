@@ -67,18 +67,24 @@ class Portal extends StatelessWidget {
             ),
             SizedBox(height: 40.0,),
             Center(
-              child: OutlinedButton(
-                onPressed: (){
-                  Navigator.pushNamed(context, '/login');
-                },
-                child: Text('Portal'),
-                style: OutlinedButton.styleFrom(
-                    padding: EdgeInsets.fromLTRB(120.0, 10.0, 120.0, 10.0),
-                    backgroundColor: Colors.white,
-                    primary: color_purple,
-                    textStyle: TextStyle(
-                      fontSize: 20.0,
-                    )
+              child: SizedBox(
+                height: 45,
+                child: OutlinedButton(
+                  onPressed: (){
+                    Navigator.pushNamed(context, '/login');
+                  },
+                  child: Text('Portal'),
+                  style: OutlinedButton.styleFrom(
+                      shape: new RoundedRectangleBorder(borderRadius: new BorderRadius.circular(10.0)),
+                      padding: EdgeInsets.fromLTRB(120.0, 10.0, 120.0, 10.0),
+                      backgroundColor: Colors.white,
+                      primary: color_purple,
+                      textStyle: TextStyle(
+                        letterSpacing: .5,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 20.0,
+                      )
+                  ),
                 ),
               ),
             )

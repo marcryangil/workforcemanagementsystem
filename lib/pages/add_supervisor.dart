@@ -40,7 +40,7 @@ class Add_Supervisor extends StatelessWidget {
                 SizedBox(height: 95.0,),
                 SizedBox( ////////////////////////BOX
                   width: 600,
-                  height: 500,
+                  height: 450,
                   child: Container(
                     padding: EdgeInsets.fromLTRB(0, 40, 0, 0),
                     decoration: BoxDecoration(
@@ -155,19 +155,22 @@ class Add_Supervisor extends StatelessWidget {
                         ),
                         SizedBox(height: 50.0,),
                         Center(
-                          child: OutlinedButton(
-                            onPressed: (){
-                              Navigator.pushNamed(context, '/dashboard');
-                            },
-                            child: Text('Add'),
-                            style: OutlinedButton.styleFrom(
-                                padding: EdgeInsets.fromLTRB(150.0, 12.0, 150.0, 12.0),
-                                backgroundColor: color_purple,
-                                primary: Colors.white,
-                                textStyle: TextStyle(
-                                    fontSize: 20.0,
-                                    fontFamily: 'WorkSans'
-                                )
+                          child: SizedBox(
+                            height: 45,
+                            child: OutlinedButton(
+                              onPressed: (){
+                                Navigator.pushNamed(context, '/dashboard');
+                              },
+                              child: Text('Add'),
+                              style: OutlinedButton.styleFrom(
+                                  padding: EdgeInsets.fromLTRB(150.0, 12.0, 150.0, 12.0),
+                                  backgroundColor: color_purple,
+                                  primary: Colors.white,
+                                  textStyle: TextStyle(
+                                      fontSize: 20.0,
+                                      fontFamily: 'WorkSans'
+                                  )
+                              ),
                             ),
                           ),
                         ),
@@ -176,7 +179,7 @@ class Add_Supervisor extends StatelessWidget {
                   ),
 
                 ),
-                SizedBox(height: 135,),
+                SizedBox(height: 175,),
                 Center(
                   //padding: EdgeInsets.fromLTRB(60.0, 0, 0, 12),
                   child: Text(
