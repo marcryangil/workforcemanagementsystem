@@ -39,9 +39,7 @@ class DrawerMain extends StatelessWidget {
                 ),
                 ListTile(
                   title: Text('Dashboard'),
-                  onTap: () {
-                    Navigator.pop(context);
-                  },
+                  onTap: () {Navigator.pushNamed(context, '/dashboard');},
                 ),
                 Text(
                     'Management'
@@ -116,9 +114,7 @@ class DrawerMain extends StatelessWidget {
                 ),
                 ListTile(
                   title: Text('Charts and Measures'),
-                  onTap: () {
-                    Navigator.pop(context);
-                  },
+                    onTap: () {Navigator.pushNamed(context, '/chartsAndMeasures');},
                 ),
                 Text(
                     'Record'
@@ -163,7 +159,8 @@ class DrawerMain extends StatelessWidget {
                       ),
                     ),
                   ),
-                )
+                ),
+                SizedBox(height: 10,),
               ],
             ),
           ),

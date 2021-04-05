@@ -24,6 +24,10 @@ dependencies:
   flutter:
     sdk: flutter
   http: ^0.12.1
+  expansion_tile_card: ^1.1.0
+  responsive_table: ^0.1.1+8
+
+  charts_flutter: ^0.6.0
 
 
   # The following adds the Cupertino Icons font to your application.

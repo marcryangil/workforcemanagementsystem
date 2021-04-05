@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:workforce_management_system/pages/add_employee.dart';
 import 'package:workforce_management_system/pages/add_supervisor.dart';
+import 'package:workforce_management_system/pages/charts_and_measures.dart';
 import 'package:workforce_management_system/pages/dashboard.dart';
 import 'package:workforce_management_system/pages/login.dart';
 import 'package:workforce_management_system/pages/portal.dart';
@@ -21,6 +22,7 @@ void main() {
       '/profileSettings': (context) => Profile_Settings(),
       '/addSupervisor': (context) => Add_Supervisor(),
       '/addEmployee': (context) => Add_Employee(),
+      '/chartsAndMeasures': (context) => ChartsAndMeasures(),
     },
   ));
 }
